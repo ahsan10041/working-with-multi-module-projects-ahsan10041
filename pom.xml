@@ -18,6 +18,7 @@
     </developers>
     <modules>
         <module>sliding-puzzle-state</module>
+        <module>sliding-puzzle-solver</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

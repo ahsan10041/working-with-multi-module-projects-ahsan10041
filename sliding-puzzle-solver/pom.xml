@@ -9,4 +9,12 @@
         <version>1.0</version>
     </parent>
     <artifactId>sliding-puzzle-solver</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>hu.unideb.inf</groupId>
+            <artifactId>sliding-puzzle-state</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>

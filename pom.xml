@@ -7,6 +7,12 @@
     <artifactId>sliding-puzzle-parent</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
+    <distributionManagement>
+        <site>
+            <id>shrek</id>
+            <url>scp://ahsan10041@shrek.unideb.hu:2222/home/ahsan10041/public_html/sliding-puzzle-parent</url>
+        </site>
+    </distributionManagement>
     <developers>
         <developer>
             <id>Q4RUJI</id>
@@ -44,6 +50,13 @@
         </dependency>
     </dependencies>
     <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-ssh</artifactId>
+                <version>3.5.3</version>
+            </extension>
+        </extensions>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

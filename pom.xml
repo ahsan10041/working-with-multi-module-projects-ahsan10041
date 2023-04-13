@@ -6,6 +6,7 @@
     <groupId>hu.unideb.inf</groupId>
     <artifactId>sliding-puzzle-parent</artifactId>
     <version>1.0</version>
+    <packaging>pom</packaging>
     <developers>
         <developer>
             <id>Q4RUJI</id>
